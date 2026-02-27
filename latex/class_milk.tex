@@ -1,0 +1,92 @@
+\doxysection{Класс Milk}
+\hypertarget{class_milk}{}\label{class_milk}\index{Milk@{Milk}}
+
+
+Конкретный декоратор — добавление молока  
+
+
+Граф наследования:\+Milk:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_milk}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_milk_a1c526c4c1ad50541ccf44346e3a1afc2}{Milk}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\item 
+string \doxymbox{\hyperlink{class_milk_a693769c2fd19713253939665d12fa5ab}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Расширяет описание напитка \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_milk_a09258d52d74f394094e4e8b3568de172}{cost}} () override
+\begin{DoxyCompactList}\small\item\em Увеличивает стоимость напитка \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_condiment_decorator_ae243b2a0f2785a0c1c32340408bebb59}{Condiment\+Decorator}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\item 
+virtual \doxymbox{\hyperlink{class_condiment_decorator_a782bbce2bd586566fcb3ae2aeea3aa58}{\texorpdfstring{$\sim$}{\string~}\+Condiment\+Decorator}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_beverage}{Beverage}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_beverage_af53635fbda9d15819b53eb32e63d0b25}{\texorpdfstring{$\sim$}{\string~}\+Beverage}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Дополнительные унаследованные члены}
+\doxysubsection*{Защищенные данные унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_condiment_decorator_a88e7aee32fb2f878046db515945bd672}{beverage}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Конкретный декоратор — добавление молока 
+
+\label{doc-constructors}
+\Hypertarget{class_milk_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_milk_a1c526c4c1ad50541ccf44346e3a1afc2}\index{Milk@{Milk}!Milk@{Milk}}
+\index{Milk@{Milk}!Milk@{Milk}}
+\doxysubsubsection{\texorpdfstring{Milk()}{Milk()}}
+{\footnotesize\ttfamily \label{class_milk_a1c526c4c1ad50541ccf44346e3a1afc2} 
+Milk::\+\+Milk (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_milk_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_milk_a09258d52d74f394094e4e8b3568de172}\index{Milk@{Milk}!cost@{cost}}
+\index{cost@{cost}!Milk@{Milk}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_milk_a09258d52d74f394094e4e8b3568de172} 
+double Milk::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Увеличивает стоимость напитка 
+
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{Condiment\+Decorator}}.
+
+\Hypertarget{class_milk_a693769c2fd19713253939665d12fa5ab}\index{Milk@{Milk}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Milk@{Milk}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_milk_a693769c2fd19713253939665d12fa5ab} 
+string Milk::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Расширяет описание напитка 
+
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{Condiment\+Decorator}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Structual Pattems/\+\+Structural Pattems/\+\+Structural Pattems/\+\doxymbox{\hyperlink{_structural_01_pattems_8cpp}{Structural Pattems.\+cpp}}\end{DoxyCompactItemize}

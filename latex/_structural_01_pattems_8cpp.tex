@@ -1,0 +1,46 @@
+\doxysection{Файл Structual Pattems/\+\+Structural Pattems/\+\+Structural Pattems/\+\+Structural Pattems.\+cpp}
+\hypertarget{_structural_01_pattems_8cpp}{}\label{_structural_01_pattems_8cpp}\index{Structual Pattems/Structural Pattems/Structural Pattems/Structural Pattems.cpp@{Structual Pattems/Structural Pattems/Structural Pattems/Structural Pattems.cpp}}
+{\ttfamily \+\#include $<$iostream$>$}\newline
+{\ttfamily \+\#include $<$string$>$}\newline
+\doxysubsubsection*{Классы}
+\begin{DoxyCompactItemize}
+\item 
+class \doxymbox{\hyperlink{class_beverage}{Beverage}}
+\begin{DoxyCompactList}\small\item\em Абстрактный базовый класс напитка (Component) Определяет общий интерфейс для всех видов кофе и добавок. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_espresso}{Espresso}}
+\begin{DoxyCompactList}\small\item\em Конкретный компонент — базовый кофе Эспрессо \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}
+\begin{DoxyCompactList}\small\item\em Абстрактный декоратор (Decorator) Хранит ссылку на объект напитка и расширяет его поведение. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_milk}{Milk}}
+\begin{DoxyCompactList}\small\item\em Конкретный декоратор — добавление молока \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_sugar}{Sugar}}
+\begin{DoxyCompactList}\small\item\em Конкретный декоратор — добавление сахара \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{class_syrup}{Syrup}}
+\begin{DoxyCompactList}\small\item\em Конкретный декоратор — добавление сиропа \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+int \doxymbox{\hyperlink{_structural_01_pattems_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Демонстрация работы паттерна Декоратор Позволяет динамически добавлять ингредиенты к напитку. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{_structural_01_pattems_8cpp_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{_structural_01_pattems_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{Structural Pattems.cpp@{Structural Pattems.cpp}!main@{main}}
+\index{main@{main}!Structural Pattems.cpp@{Structural Pattems.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{_structural_01_pattems_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Демонстрация работы паттерна Декоратор Позволяет динамически добавлять ингредиенты к напитку. 
+
+Создаём базовый напиток
+
+Последовательно оборачиваем его добавками
+
+Вывод итогового напитка
+
+Пример простого напитка без добавок

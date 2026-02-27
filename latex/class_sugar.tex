@@ -1,0 +1,92 @@
+\doxysection{Класс Sugar}
+\hypertarget{class_sugar}{}\label{class_sugar}\index{Sugar@{Sugar}}
+
+
+Конкретный декоратор — добавление сахара  
+
+
+Граф наследования:\+Sugar:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_sugar}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_sugar_ab81412e95e54cecb2ad3a7fe6c9b817f}{Sugar}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\item 
+string \doxymbox{\hyperlink{class_sugar_afe82094b43e6da7041983c35bfb7197b}{get\+Description}} () override
+\begin{DoxyCompactList}\small\item\em Делегирует получение описания базовому объекту \end{DoxyCompactList}\item 
+double \doxymbox{\hyperlink{class_sugar_a0f75a1b48a15620db6fd079a6e128a0d}{cost}} () override
+\begin{DoxyCompactList}\small\item\em Делегирует вычисление стоимости базовому объекту \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_condiment_decorator_ae243b2a0f2785a0c1c32340408bebb59}{Condiment\+Decorator}} (\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}b)
+\item 
+virtual \doxymbox{\hyperlink{class_condiment_decorator_a782bbce2bd586566fcb3ae2aeea3aa58}{\texorpdfstring{$\sim$}{\string~}\+Condiment\+Decorator}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_beverage}{Beverage}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_beverage_af53635fbda9d15819b53eb32e63d0b25}{\texorpdfstring{$\sim$}{\string~}\+Beverage}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Дополнительные унаследованные члены}
+\doxysubsection*{Защищенные данные унаследованные от \doxymbox{\hyperlink{class_condiment_decorator}{Condiment\+Decorator}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_condiment_decorator_a88e7aee32fb2f878046db515945bd672}{beverage}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Конкретный декоратор — добавление сахара 
+
+\label{doc-constructors}
+\Hypertarget{class_sugar_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_sugar_ab81412e95e54cecb2ad3a7fe6c9b817f}\index{Sugar@{Sugar}!Sugar@{Sugar}}
+\index{Sugar@{Sugar}!Sugar@{Sugar}}
+\doxysubsubsection{\texorpdfstring{Sugar()}{Sugar()}}
+{\footnotesize\ttfamily \label{class_sugar_ab81412e95e54cecb2ad3a7fe6c9b817f} 
+Sugar::\+\+Sugar (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{class_beverage}{Beverage}} \texorpdfstring{$\ast$}{*}}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_sugar_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_sugar_a0f75a1b48a15620db6fd079a6e128a0d}\index{Sugar@{Sugar}!cost@{cost}}
+\index{cost@{cost}!Sugar@{Sugar}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_sugar_a0f75a1b48a15620db6fd079a6e128a0d} 
+double Sugar::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Делегирует вычисление стоимости базовому объекту 
+
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{Condiment\+Decorator}}.
+
+\Hypertarget{class_sugar_afe82094b43e6da7041983c35bfb7197b}\index{Sugar@{Sugar}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Sugar@{Sugar}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_sugar_afe82094b43e6da7041983c35bfb7197b} 
+string Sugar::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Делегирует получение описания базовому объекту 
+
+
+
+Переопределяет метод предка \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{Condiment\+Decorator}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Structual Pattems/\+\+Structural Pattems/\+\+Structural Pattems/\+\doxymbox{\hyperlink{_structural_01_pattems_8cpp}{Structural Pattems.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,74 @@
+\doxysection{Класс Mage\+Factory}
+\hypertarget{class_mage_factory}{}\label{class_mage_factory}\index{MageFactory@{MageFactory}}
+
+
+Класс для создания Мага  
+
+
+Граф наследования:\+Mage\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_mage_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_mage_factory_a9a1fcb791fe549edac8c582c3426df4b}{create\+Hero}} () override
+\begin{DoxyCompactList}\small\item\em Фабричный метод создания персонажа \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_mage_factory_aa4e95840bd6665e14c3eda4c280faed6}{create\+Character}} () override
+\begin{DoxyCompactList}\small\item\em Функция для выделения памяти на класс персонажа \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_character_factory}{Character\+Factory}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_character_factory_a40a919b1964e459259c87ebbe4eb96f3}{spawn\+And\+Attak}} ()
+\begin{DoxyCompactList}\small\item\em Создание персонажа и выполнение его действия Используется для демонстрации работы фабрики. \end{DoxyCompactList}\item 
+virtual \doxymbox{\hyperlink{class_character_factory_a2da6fd986bffbd1491093998490583bf}{\texorpdfstring{$\sim$}{\string~}\+Character\+Factory}} ()
+\item 
+void \doxymbox{\hyperlink{class_character_factory_a6f13a9955e9286aac376e8c4445f2664}{spawn\+And\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Функция для создания персонажей и выполнения базовых его действий \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс для создания Мага 
+
+\label{doc-func-members}
+\Hypertarget{class_mage_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_mage_factory_aa4e95840bd6665e14c3eda4c280faed6}\index{MageFactory@{MageFactory}!createCharacter@{createCharacter}}
+\index{createCharacter@{createCharacter}!MageFactory@{MageFactory}}
+\doxysubsubsection{\texorpdfstring{createCharacter()}{createCharacter()}}
+{\footnotesize\ttfamily \label{class_mage_factory_aa4e95840bd6665e14c3eda4c280faed6} 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Mage\+Factory::\+create\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Функция для выделения памяти на класс персонажа 
+
+\begin{DoxyReturn}{Возвращает}
+Возвращает указатель на созданного персонажа 
+\end{DoxyReturn}
+
+
+Замещает \doxymbox{\hyperlink{class_character_factory_a3e6c731ccaf371b16220933036207dba}{Character\+Factory}}.
+
+\Hypertarget{class_mage_factory_a9a1fcb791fe549edac8c582c3426df4b}\index{MageFactory@{MageFactory}!createHero@{createHero}}
+\index{createHero@{createHero}!MageFactory@{MageFactory}}
+\doxysubsubsection{\texorpdfstring{createHero()}{createHero()}}
+{\footnotesize\ttfamily \label{class_mage_factory_a9a1fcb791fe549edac8c582c3426df4b} 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Mage\+Factory::\+create\+Hero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Фабричный метод создания персонажа 
+
+
+
+Замещает \doxymbox{\hyperlink{class_character_factory_ab9b734ccb11152dfbf7f3f934fb7ac27}{Character\+Factory}}.
+
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Pattems/\+\+Behavioral Pattems/\+\+Behavioral Pattems/\+\doxymbox{\hyperlink{_behavioral_01_pattems_8cpp}{Behavioral Pattems.\+cpp}}\item 
+Creational Pattems/\+\+Cretional Pattms/\+\+Cretional Pattms/\+\doxymbox{\hyperlink{_cretional_01_pattms_8cpp}{Cretional Pattms.\+cpp}}\end{DoxyCompactItemize}

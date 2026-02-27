@@ -1,0 +1,74 @@
+\doxysection{Класс Beverage}
+\hypertarget{class_beverage}{}\label{class_beverage}\index{Beverage@{Beverage}}
+
+
+Абстрактный базовый класс напитка (Component) Определяет общий интерфейс для всех видов кофе и добавок.  
+
+
+Граф наследования:\+Beverage:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_beverage}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \doxymbox{\hyperlink{class_beverage_a23e305526d707afe1a006e441a71a8b8}{get\+Description}} ()=0
+\begin{DoxyCompactList}\small\item\em Получить описание напитка \end{DoxyCompactList}\item 
+virtual double \doxymbox{\hyperlink{class_beverage_af58f2e85b9dfafc8a32f64e9b5127b1e}{cost}} ()=0
+\begin{DoxyCompactList}\small\item\em Получить стоимость напитка \end{DoxyCompactList}\item 
+virtual \doxymbox{\hyperlink{class_beverage_af53635fbda9d15819b53eb32e63d0b25}{\texorpdfstring{$\sim$}{\string~}\+Beverage}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный базовый класс напитка (Component) Определяет общий интерфейс для всех видов кофе и добавок. 
+
+\label{doc-constructors}
+\Hypertarget{class_beverage_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_beverage_af53635fbda9d15819b53eb32e63d0b25}\index{Beverage@{Beverage}!````~Beverage@{\texorpdfstring{$\sim$}{\string~}Beverage}}
+\index{````~Beverage@{\texorpdfstring{$\sim$}{\string~}Beverage}!Beverage@{Beverage}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Beverage()}{\string~Beverage()}}
+{\footnotesize\ttfamily \label{class_beverage_af53635fbda9d15819b53eb32e63d0b25} 
+virtual Beverage::\+\texorpdfstring{$\sim$}{\string~}\+Beverage (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_beverage_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_beverage_af58f2e85b9dfafc8a32f64e9b5127b1e}\index{Beverage@{Beverage}!cost@{cost}}
+\index{cost@{cost}!Beverage@{Beverage}}
+\doxysubsubsection{\texorpdfstring{cost()}{cost()}}
+{\footnotesize\ttfamily \label{class_beverage_af58f2e85b9dfafc8a32f64e9b5127b1e} 
+virtual double Beverage::\+cost (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Получить стоимость напитка 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_condiment_decorator_aae52dd4645b9c84541728a60295a3882}{Condiment\+Decorator}}, \doxymbox{\hyperlink{class_espresso_aeecc79eb25715629a48e42b40fc1b3a0}{Espresso}}, \doxymbox{\hyperlink{class_milk_a09258d52d74f394094e4e8b3568de172}{Milk}}, \doxymbox{\hyperlink{class_sugar_a0f75a1b48a15620db6fd079a6e128a0d}{Sugar}} и \doxymbox{\hyperlink{class_syrup_a210645fbdff95836ac673f620ce5a7fb}{Syrup}}.
+
+\Hypertarget{class_beverage_a23e305526d707afe1a006e441a71a8b8}\index{Beverage@{Beverage}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!Beverage@{Beverage}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily \label{class_beverage_a23e305526d707afe1a006e441a71a8b8} 
+virtual string Beverage::\+get\+Description (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Получить описание напитка 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_condiment_decorator_a0f95d1319daadd8ed01b2ffaa3c601d6}{Condiment\+Decorator}}, \doxymbox{\hyperlink{class_espresso_a03a8c6439c9c2db55b890cda1b58a6a6}{Espresso}}, \doxymbox{\hyperlink{class_milk_a693769c2fd19713253939665d12fa5ab}{Milk}}, \doxymbox{\hyperlink{class_sugar_afe82094b43e6da7041983c35bfb7197b}{Sugar}} и \doxymbox{\hyperlink{class_syrup_ae59f9838cff7fa21d989a373c1634bfe}{Syrup}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Structual Pattems/\+\+Structural Pattems/\+\+Structural Pattems/\+\doxymbox{\hyperlink{_structural_01_pattems_8cpp}{Structural Pattems.\+cpp}}\end{DoxyCompactItemize}

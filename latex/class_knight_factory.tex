@@ -1,0 +1,48 @@
+\doxysection{Класс Knight\+Factory}
+\hypertarget{class_knight_factory}{}\label{class_knight_factory}\index{KnightFactory@{KnightFactory}}
+Граф наследования:\+Knight\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_knight_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_knight_factory_a1d4d63a9eb0495192fc6e1c7f21351f1}{create\+Hero}} () override
+\begin{DoxyCompactList}\small\item\em Фабричный метод создания персонажа \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые члены унаследованные от \doxymbox{\hyperlink{class_character_factory}{Character\+Factory}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{class_character_factory_a40a919b1964e459259c87ebbe4eb96f3}{spawn\+And\+Attak}} ()
+\begin{DoxyCompactList}\small\item\em Создание персонажа и выполнение его действия Используется для демонстрации работы фабрики. \end{DoxyCompactList}\item 
+virtual \doxymbox{\hyperlink{class_character_factory_a2da6fd986bffbd1491093998490583bf}{\texorpdfstring{$\sim$}{\string~}\+Character\+Factory}} ()
+\item 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_character_factory_a3e6c731ccaf371b16220933036207dba}{create\+Character}} ()=0
+\item 
+void \doxymbox{\hyperlink{class_character_factory_a6f13a9955e9286aac376e8c4445f2664}{spawn\+And\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Функция для создания персонажей и выполнения базовых его действий \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{class_knight_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_knight_factory_a1d4d63a9eb0495192fc6e1c7f21351f1}\index{KnightFactory@{KnightFactory}!createHero@{createHero}}
+\index{createHero@{createHero}!KnightFactory@{KnightFactory}}
+\doxysubsubsection{\texorpdfstring{createHero()}{createHero()}}
+{\footnotesize\ttfamily \label{class_knight_factory_a1d4d63a9eb0495192fc6e1c7f21351f1} 
+\doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Knight\+Factory::\+create\+Hero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Фабричный метод создания персонажа 
+
+
+
+Замещает \doxymbox{\hyperlink{class_character_factory_ab9b734ccb11152dfbf7f3f934fb7ac27}{Character\+Factory}}.
+
+
+
+Объявления и описания членов класса находятся в файле:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Pattems/\+\+Behavioral Pattems/\+\+Behavioral Pattems/\+\doxymbox{\hyperlink{_behavioral_01_pattems_8cpp}{Behavioral Pattems.\+cpp}}\end{DoxyCompactItemize}

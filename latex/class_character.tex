@@ -1,0 +1,117 @@
+\doxysection{Класс Character}
+\hypertarget{class_character}{}\label{class_character}\index{Character@{Character}}
+
+
+Абстрактный базовый класс персонажа  
+
+
+Граф наследования:\+Character:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_character}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual string \doxymbox{\hyperlink{class_character_a7871a88b3bdfc17d58d737fd6cf04064}{get\+Type}} ()=0
+\begin{DoxyCompactList}\small\item\em Тип персонажа \end{DoxyCompactList}\item 
+virtual void \doxymbox{\hyperlink{class_character_a745344b90e5e7855995d5873ee2d941b}{attak}} ()=0
+\begin{DoxyCompactList}\small\item\em Действие атаки \end{DoxyCompactList}\item 
+virtual int \doxymbox{\hyperlink{class_character_ab5e6d725195ce52be0115630bef36a38}{get\+Health}} ()=0
+\begin{DoxyCompactList}\small\item\em Количество здоровья \end{DoxyCompactList}\item 
+virtual \doxymbox{\hyperlink{class_character_af3ec409c562122c4464e8a9d3be5f6d2}{\texorpdfstring{$\sim$}{\string~}\+Character}} ()
+\item 
+virtual string \doxymbox{\hyperlink{class_character_a7871a88b3bdfc17d58d737fd6cf04064}{get\+Type}} ()=0
+\item 
+virtual void \doxymbox{\hyperlink{class_character_ae5f544841b326a10b86dee4196474b2e}{attack}} ()=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактный базовый класс персонажа 
+
+Интерфейс для персонажей 
+
+\label{doc-constructors}
+\Hypertarget{class_character_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_character_af3ec409c562122c4464e8a9d3be5f6d2}\index{Character@{Character}!````~Character@{\texorpdfstring{$\sim$}{\string~}Character}}
+\index{````~Character@{\texorpdfstring{$\sim$}{\string~}Character}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Character()}{\string~Character()}}
+{\footnotesize\ttfamily \label{class_character_af3ec409c562122c4464e8a9d3be5f6d2} 
+virtual Character::\+\texorpdfstring{$\sim$}{\string~}\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_character_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_character_ae5f544841b326a10b86dee4196474b2e}\index{Character@{Character}!attack@{attack}}
+\index{attack@{attack}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{attack()}{attack()}}
+{\footnotesize\ttfamily \label{class_character_ae5f544841b326a10b86dee4196474b2e} 
+virtual void Character::\+attack (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_ad5a62a929801de20b6c53858b8a77256}{Archer}}, \doxymbox{\hyperlink{class_mage_a5ac36b45df55997e4fa1f50ff571b7d1}{Mage}} и \doxymbox{\hyperlink{class_warrior_a0d8d9631bffe5aee5e9420acc544c190}{Warrior}}.
+
+\Hypertarget{class_character_a745344b90e5e7855995d5873ee2d941b}\index{Character@{Character}!attak@{attak}}
+\index{attak@{attak}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{attak()}{attak()}}
+{\footnotesize\ttfamily \label{class_character_a745344b90e5e7855995d5873ee2d941b} 
+virtual void Character::\+attak (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Действие атаки 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_a9e92de3ad219b67636504bb9f1a996fd}{Archer}}, \doxymbox{\hyperlink{class_knight_aa0061c5d6ab48075267cbd2a4fdf02e1}{Knight}}, \doxymbox{\hyperlink{class_mage_ab580ef2139ae1385d6125309ffffe2f1}{Mage}} и \doxymbox{\hyperlink{class_warrior_a3b4cb1e3d8940517f45b4a79812de284}{Warrior}}.
+
+\Hypertarget{class_character_ab5e6d725195ce52be0115630bef36a38}\index{Character@{Character}!getHealth@{getHealth}}
+\index{getHealth@{getHealth}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{getHealth()}{getHealth()}}
+{\footnotesize\ttfamily \label{class_character_ab5e6d725195ce52be0115630bef36a38} 
+virtual int Character::\+get\+Health (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Количество здоровья 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_a89a53d966ff202960b8637717c0f42c8}{Archer}}, \doxymbox{\hyperlink{class_knight_af6c3500520fbedd3aca1bf67191a92b8}{Knight}}, \doxymbox{\hyperlink{class_mage_a5d3b882bf6e84e4f695a705e23645107}{Mage}} и \doxymbox{\hyperlink{class_warrior_aa1418d23db6dac64b33ea11f8ceaa801}{Warrior}}.
+
+\Hypertarget{class_character_a7871a88b3bdfc17d58d737fd6cf04064}\index{Character@{Character}!getType@{getType}}
+\index{getType@{getType}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{class_character_a7871a88b3bdfc17d58d737fd6cf04064} 
+virtual string Character::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Тип персонажа 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{Archer}}, \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{Archer}}, \doxymbox{\hyperlink{class_knight_abd9e9abbc5448c928112a4b94d7e7dce}{Knight}}, \doxymbox{\hyperlink{class_mage_ae136b8777d93fff917e2da6eedcf58ea}{Mage}}, \doxymbox{\hyperlink{class_mage_ae136b8777d93fff917e2da6eedcf58ea}{Mage}}, \doxymbox{\hyperlink{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}{Warrior}} и \doxymbox{\hyperlink{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}{Warrior}}.
+
+\Hypertarget{class_character_a7871a88b3bdfc17d58d737fd6cf04064}\index{Character@{Character}!getType@{getType}}
+\index{getType@{getType}!Character@{Character}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{class_character_a7871a88b3bdfc17d58d737fd6cf04064} 
+virtual string Character::\+get\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{Archer}}, \doxymbox{\hyperlink{class_archer_a06b8cd5ef290796b05250eec34d677a1}{Archer}}, \doxymbox{\hyperlink{class_knight_abd9e9abbc5448c928112a4b94d7e7dce}{Knight}}, \doxymbox{\hyperlink{class_mage_ae136b8777d93fff917e2da6eedcf58ea}{Mage}}, \doxymbox{\hyperlink{class_mage_ae136b8777d93fff917e2da6eedcf58ea}{Mage}}, \doxymbox{\hyperlink{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}{Warrior}} и \doxymbox{\hyperlink{class_warrior_ac5b177bd2922074cb8fe592ff90d73e6}{Warrior}}.
+
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Pattems/\+\+Behavioral Pattems/\+\+Behavioral Pattems/\+\doxymbox{\hyperlink{_behavioral_01_pattems_8cpp}{Behavioral Pattems.\+cpp}}\item 
+Creational Pattems/\+\+Cretional Pattms/\+\+Cretional Pattms/\+\doxymbox{\hyperlink{_cretional_01_pattms_8cpp}{Cretional Pattms.\+cpp}}\end{DoxyCompactItemize}

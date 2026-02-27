@@ -1,0 +1,108 @@
+\doxysection{Класс Character\+Factory}
+\hypertarget{class_character_factory}{}\label{class_character_factory}\index{CharacterFactory@{CharacterFactory}}
+
+
+Абстрактная фабрика персонажей  
+
+
+Граф наследования:\+Character\+Factory:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.322314cm]{class_character_factory}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_character_factory_ab9b734ccb11152dfbf7f3f934fb7ac27}{create\+Hero}} ()=0
+\begin{DoxyCompactList}\small\item\em Фабричный метод создания персонажа \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{class_character_factory_a40a919b1964e459259c87ebbe4eb96f3}{spawn\+And\+Attak}} ()
+\begin{DoxyCompactList}\small\item\em Создание персонажа и выполнение его действия Используется для демонстрации работы фабрики. \end{DoxyCompactList}\item 
+virtual \doxymbox{\hyperlink{class_character_factory_a2da6fd986bffbd1491093998490583bf}{\texorpdfstring{$\sim$}{\string~}\+Character\+Factory}} ()
+\item 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{class_character_factory_a3e6c731ccaf371b16220933036207dba}{create\+Character}} ()=0
+\item 
+void \doxymbox{\hyperlink{class_character_factory_a6f13a9955e9286aac376e8c4445f2664}{spawn\+And\+Attack}} ()
+\begin{DoxyCompactList}\small\item\em Функция для создания персонажей и выполнения базовых его действий \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Абстрактная фабрика персонажей 
+
+Абстрактная фабрика для генерации персонажей
+
+\begin{DoxyNote}{Заметки}
+Используется для примера работы паттерна проектирования Creational 
+\end{DoxyNote}
+
+
+\label{doc-constructors}
+\Hypertarget{class_character_factory_doc-constructors}
+\doxysubsection{Конструктор(ы)}
+\Hypertarget{class_character_factory_a2da6fd986bffbd1491093998490583bf}\index{CharacterFactory@{CharacterFactory}!````~CharacterFactory@{\texorpdfstring{$\sim$}{\string~}CharacterFactory}}
+\index{````~CharacterFactory@{\texorpdfstring{$\sim$}{\string~}CharacterFactory}!CharacterFactory@{CharacterFactory}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}CharacterFactory()}{\string~CharacterFactory()}}
+{\footnotesize\ttfamily \label{class_character_factory_a2da6fd986bffbd1491093998490583bf} 
+virtual Character\+Factory::\+\texorpdfstring{$\sim$}{\string~}\+Character\+Factory (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_character_factory_doc-func-members}
+\doxysubsection{Методы}
+\Hypertarget{class_character_factory_a3e6c731ccaf371b16220933036207dba}\index{CharacterFactory@{CharacterFactory}!createCharacter@{createCharacter}}
+\index{createCharacter@{createCharacter}!CharacterFactory@{CharacterFactory}}
+\doxysubsubsection{\texorpdfstring{createCharacter()}{createCharacter()}}
+{\footnotesize\ttfamily \label{class_character_factory_a3e6c731ccaf371b16220933036207dba} 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Character\+Factory::\+create\+Character (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_factory_ab6649aa2561984b9001ace4bcda3db64}{Archer\+Factory}}, \doxymbox{\hyperlink{class_mage_factory_aa4e95840bd6665e14c3eda4c280faed6}{Mage\+Factory}} и \doxymbox{\hyperlink{class_warrior_factory_a9df8c9e4fc56457d08ff5b6535913646}{Warrior\+Factory}}.
+
+\Hypertarget{class_character_factory_ab9b734ccb11152dfbf7f3f934fb7ac27}\index{CharacterFactory@{CharacterFactory}!createHero@{createHero}}
+\index{createHero@{createHero}!CharacterFactory@{CharacterFactory}}
+\doxysubsubsection{\texorpdfstring{createHero()}{createHero()}}
+{\footnotesize\ttfamily \label{class_character_factory_ab9b734ccb11152dfbf7f3f934fb7ac27} 
+virtual \doxymbox{\hyperlink{class_character}{Character}} \texorpdfstring{$\ast$}{*} Character\+Factory::\+create\+Hero (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Фабричный метод создания персонажа 
+
+
+
+Замещается в \doxymbox{\hyperlink{class_archer_factory_a8b4b87287aafc9b8b75b4f52c8109725}{Archer\+Factory}}, \doxymbox{\hyperlink{class_knight_factory_a1d4d63a9eb0495192fc6e1c7f21351f1}{Knight\+Factory}}, \doxymbox{\hyperlink{class_mage_factory_a9a1fcb791fe549edac8c582c3426df4b}{Mage\+Factory}} и \doxymbox{\hyperlink{class_warrior_factory_a347822b87f21fc9a1963f4ba54c1b6b7}{Warrior\+Factory}}.
+
+\Hypertarget{class_character_factory_a6f13a9955e9286aac376e8c4445f2664}\index{CharacterFactory@{CharacterFactory}!spawnAndAttack@{spawnAndAttack}}
+\index{spawnAndAttack@{spawnAndAttack}!CharacterFactory@{CharacterFactory}}
+\doxysubsubsection{\texorpdfstring{spawnAndAttack()}{spawnAndAttack()}}
+{\footnotesize\ttfamily \label{class_character_factory_a6f13a9955e9286aac376e8c4445f2664} 
+void Character\+Factory::\+spawn\+And\+Attack (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция для создания персонажей и выполнения базовых его действий 
+
+\begin{DoxyNote}{Заметки}
+После создания объекта, выполняет действие персонажа и уничтожает объект 
+\end{DoxyNote}
+\begin{DoxyWarning}{Предупреждения}
+Нельзя будет использовать созданных персонажей в других частях кода 
+\end{DoxyWarning}
+\Hypertarget{class_character_factory_a40a919b1964e459259c87ebbe4eb96f3}\index{CharacterFactory@{CharacterFactory}!spawnAndAttak@{spawnAndAttak}}
+\index{spawnAndAttak@{spawnAndAttak}!CharacterFactory@{CharacterFactory}}
+\doxysubsubsection{\texorpdfstring{spawnAndAttak()}{spawnAndAttak()}}
+{\footnotesize\ttfamily \label{class_character_factory_a40a919b1964e459259c87ebbe4eb96f3} 
+void Character\+Factory::\+spawn\+And\+Attak (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Создание персонажа и выполнение его действия Используется для демонстрации работы фабрики. 
+
+
+
+Объявления и описания членов классов находятся в файлах:\+\begin{DoxyCompactItemize}
+\item 
+Behavioral Pattems/\+\+Behavioral Pattems/\+\+Behavioral Pattems/\+\doxymbox{\hyperlink{_behavioral_01_pattems_8cpp}{Behavioral Pattems.\+cpp}}\item 
+Creational Pattems/\+\+Cretional Pattms/\+\+Cretional Pattms/\+\doxymbox{\hyperlink{_cretional_01_pattms_8cpp}{Cretional Pattms.\+cpp}}\end{DoxyCompactItemize}
